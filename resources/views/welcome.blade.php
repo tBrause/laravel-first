@@ -6,7 +6,10 @@
 
         <title>@yield('title')</title>
 
-        <!-- Fonts -->
+        <!-- Bootstrap -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
 
         <!-- Styles -->
         <style>

@@ -13,7 +13,8 @@
 {{-- foreach --}}
 <ul>
 @foreach ($data as $product)
-<li>name : {{ $product->name }}</li>
+<li>name : {{ $product->name }}<br>
+price : {{ $product->price }}</li>
 @endforeach
 </ul>
 {{-- foreach end --}}

@@ -57,5 +57,17 @@
     {{-- endswitsh --}}
     @endswitch
 
+    {{-- for --}}
+    @for($i = 0; $i < 5; $i++)
+        <p>var : i ist {{ $i }}</p>
+    {{-- endfor --}}
+    @endfor
+
+    {{-- php --}}
+    @php
+    echo $productId;
+    # {{-- endphp --}}
+    @endphp
+
 {{-- Section beenden --}}
 @endsection

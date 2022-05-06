@@ -6,6 +6,7 @@
 {{-- section --}}
 @section('content')
 
+    <h1>Create Product</h1>
     <div class="col-6">
         <form method="POST" action="/product">
             <div class="form-group">
@@ -14,7 +15,7 @@
             </div>
             <div class="form-group">
                 <label for="price">Price</label>
-                <input type="number" class="form-control" id="price" name="price">
+                <input type="number" min="1" max="10000" class="form-control" id="price" name="price">
             </div>
             <div class="form-group">
                 <label for="available">Available</label>

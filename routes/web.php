@@ -40,3 +40,7 @@ Route::get('product3', 'App\Http\Controllers\ProductController@index');
 
 # product page variante 4
 Route::get('product4/{id}', 'App\Http\Controllers\ProductController@show');
+
+
+# product create page
+Route::get('product/create', 'App\Http\Controllers\ProductController@create');

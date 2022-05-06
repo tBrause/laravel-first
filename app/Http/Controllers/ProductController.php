@@ -26,6 +26,11 @@ class ProductController extends Controller
 
         return view('showProduct', compact('productId'));
     }
+
+    public function create()
+    {
+        return view('create');
+    }
 }
 
 #$index = new Invokable();

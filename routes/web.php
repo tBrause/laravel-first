@@ -35,11 +35,11 @@ Route::get('product2', function () {
     return view('product', compact('productName'));
 });
 
-# product page variante 3
-Route::get('product3', 'App\Http\Controllers\ProductController@index');
+# products page
+Route::get('products', 'App\Http\Controllers\ProductController@index');
 
-# product page variante 4
-Route::get('product4/{id}', 'App\Http\Controllers\ProductController@show');
+# productdetails page
+Route::get('productdetails/{id}', 'App\Http\Controllers\ProductController@show');
 
 
 # product create page
